@@ -13,7 +13,7 @@ namespace QLSinhVien
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;
-        public MonHocDAL() { dc = new DataConnection(); }
+        public MonHocDAL(int i) { dc = new DataConnection(i); }
         public DataTable getAllSinhVien()
         {
             String sql = "SELECT * FROM MocHoc";

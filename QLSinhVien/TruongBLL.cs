@@ -10,9 +10,9 @@ namespace QLSinhVien
     class TruongBLL
     {
         TruongDAL dalSV;
-        public TruongBLL()
+        public TruongBLL(int i)
         {
-            dalSV = new TruongDAL();
+            dalSV = new TruongDAL(i);
         }
         public DataTable getAllSinhVien()
         {

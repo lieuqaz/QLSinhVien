@@ -10,9 +10,9 @@ namespace QLSinhVien
     class NganhBLL
     {
         NganhDAL dalSV;
-        public NganhBLL()
+        public NganhBLL(int i)
         {
-            dalSV = new NganhDAL();
+            dalSV = new NganhDAL(i);
         }
         public DataTable getAllSinhVien()
         {

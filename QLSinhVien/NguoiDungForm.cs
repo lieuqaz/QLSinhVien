@@ -13,10 +13,10 @@ namespace QLSinhVien
     public partial class NguoiDungForm : Form
     {
         NguoiDungBLL bllSV;
-        public NguoiDungForm()
+        public NguoiDungForm(int i)
         {
             InitializeComponent();
-            bllSV = new NguoiDungBLL();
+            bllSV = new NguoiDungBLL(i);
         }
         public void ShowAllSinhVien()
         {

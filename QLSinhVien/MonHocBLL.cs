@@ -10,9 +10,9 @@ namespace QLSinhVien
     class MonHocBLL
     {
         MonHocDAL dalSV;
-        public MonHocBLL()
+        public MonHocBLL(int i)
         {
-            dalSV = new MonHocDAL();
+            dalSV = new MonHocDAL(i);
         }
         public DataTable getAllSinhVien()
         {

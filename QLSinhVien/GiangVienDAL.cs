@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace QLSinhVien
 {
     class GiangVienDAL
-    {
+    {   
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;
-        public GiangVienDAL() { dc = new DataConnection(); }
+        public GiangVienDAL(int i) { dc = new DataConnection(i); }
         public DataTable getAllSinhVien()
         {
             String sql = "SELECT * FROM GiangVien";

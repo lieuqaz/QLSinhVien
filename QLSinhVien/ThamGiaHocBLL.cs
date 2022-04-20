@@ -10,9 +10,9 @@ namespace QLSinhVien
     class ThamGiaHocBLL
     {
         ThamGiaHocDAL dalSV;
-        public ThamGiaHocBLL()
+        public ThamGiaHocBLL(int i)
         {
-            dalSV = new ThamGiaHocDAL();
+            dalSV = new ThamGiaHocDAL(i);
         }
         public DataTable getAllSinhVien()
         {

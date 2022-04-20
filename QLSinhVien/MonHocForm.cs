@@ -13,10 +13,10 @@ namespace QLSinhVien
     public partial class MonHocForm : Form
     {
         MonHocBLL bllSV;
-        public MonHocForm()
+        public MonHocForm(int i)
         {
             InitializeComponent();
-            bllSV = new MonHocBLL();
+            bllSV = new MonHocBLL(i);
         }
         public void ShowAllSinhVien()
         {

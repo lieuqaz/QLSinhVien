@@ -14,7 +14,7 @@ namespace QLSinhVien
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;
-        public SinhVienDAL() { dc = new DataConnection(); }
+        public SinhVienDAL(int i) { dc = new DataConnection(i); }
         public DataTable getAllSinhVien(){
             String sql = "SELECT * FROM SV";
             SqlConnection con = dc.getConnect();

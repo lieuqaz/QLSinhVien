@@ -13,7 +13,7 @@ namespace QLSinhVien
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;
-        public LopHocPhanDAL() { dc = new DataConnection(); }
+        public LopHocPhanDAL(int i) { dc = new DataConnection(i); }
         public DataTable getAllSinhVien()
         {
             String sql = "SELECT * FROM LopHocPhan";

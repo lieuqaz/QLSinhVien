@@ -10,9 +10,9 @@ namespace QLSinhVien
     class GiangVienBLL
     {
         GiangVienDAL dalSV;
-        public GiangVienBLL()
+        public GiangVienBLL(int i)
         {
-            dalSV = new GiangVienDAL();
+            dalSV = new GiangVienDAL(i);
         }
         public DataTable getAllSinhVien()
         {

@@ -13,10 +13,10 @@ namespace QLSinhVien
     public partial class LopHocPhanForm : Form
     {
         LopHocPhanBLL bllSV;
-        public LopHocPhanForm()
+        public LopHocPhanForm(int i)
         {
             InitializeComponent();
-            bllSV = new LopHocPhanBLL();
+            bllSV = new LopHocPhanBLL(i);
         }
         public void ShowAllSinhVien()
         {

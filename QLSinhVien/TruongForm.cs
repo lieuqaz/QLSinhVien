@@ -13,10 +13,10 @@ namespace QLSinhVien
     public partial class TruongForm : Form
     {
         TruongBLL bllSV;
-        public TruongForm()
+        public TruongForm(int i)
         {
             InitializeComponent();
-            bllSV = new TruongBLL();
+            bllSV = new TruongBLL(i);
         }
         public void ShowAllSinhVien()
         {

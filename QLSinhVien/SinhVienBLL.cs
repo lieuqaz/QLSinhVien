@@ -10,8 +10,8 @@ namespace QLSinhVien
     class SinhVienBLL
     {
         SinhVienDAL dalSV;
-        public SinhVienBLL(){
-            dalSV = new SinhVienDAL();
+        public SinhVienBLL(int i){
+            dalSV = new SinhVienDAL(i);
         }
         public DataTable getAllSinhVien()
         {

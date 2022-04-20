@@ -58,6 +58,7 @@
     <Compile Include="QLSV.Designer.cs">
       <DependentUpon>QLSV.cs</DependentUpon>
     </Compile>
+    <Compile Include="Server.cs" />
     <Compile Include="TruongForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -10,9 +10,9 @@ namespace QLSinhVien
     class LopHocPhanBLL
     {
         LopHocPhanDAL dalSV;
-        public LopHocPhanBLL()
+        public LopHocPhanBLL(int i)
         {
-            dalSV = new LopHocPhanDAL();
+            dalSV = new LopHocPhanDAL(i);
         }
         public DataTable getAllSinhVien()
         {

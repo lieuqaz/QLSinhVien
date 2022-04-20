@@ -13,7 +13,7 @@ namespace QLSinhVien
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;
-        public NguoiDungDAL() { dc = new DataConnection(); }
+        public NguoiDungDAL(int i) { dc = new DataConnection(i); }
         public DataTable getAllSinhVien()
         {
             String sql = "SELECT * FROM NguoiDung";

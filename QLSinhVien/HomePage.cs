@@ -18,10 +18,9 @@ namespace QLSinhVien
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {   
-            DataConnection dataConnection=new DataConnection();
-            dataConnection.getIndex(2);
-            QLSV qLSV  =new QLSV();
+        {
+         
+            QLSV qLSV  =new QLSV(0);
             qLSV.Show();
 
             
@@ -29,21 +28,21 @@ namespace QLSinhVien
 
         private void button2_Click(object sender, EventArgs e)
         {
-            QLSV qLSV = new QLSV();
+            QLSV qLSV = new QLSV(1);
             qLSV.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
           
-            QLSV qLSV = new QLSV();
+            QLSV qLSV = new QLSV(2);
             qLSV.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
           
-            QLSV qLSV = new QLSV();
+            QLSV qLSV = new QLSV(3);
             qLSV.Show();
         }
 

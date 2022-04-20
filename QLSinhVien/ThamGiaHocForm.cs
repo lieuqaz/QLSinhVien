@@ -13,10 +13,10 @@ namespace QLSinhVien
     public partial class ThamGiaHocForm : Form
     {
         ThamGiaHocBLL bllSV;
-        public ThamGiaHocForm()
+        public ThamGiaHocForm(int i)
         {
             InitializeComponent();
-            bllSV = new ThamGiaHocBLL();
+            bllSV = new ThamGiaHocBLL(i);
         }
         public void ShowAllSinhVien()
         {
