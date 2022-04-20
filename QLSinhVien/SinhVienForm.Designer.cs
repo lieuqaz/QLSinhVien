@@ -59,7 +59,6 @@
             this.lb1.Size = new System.Drawing.Size(66, 13);
             this.lb1.TabIndex = 0;
             this.lb1.Text = "ID Sinh Viên";
-            
             // 
             // lb2
             // 
@@ -69,7 +68,6 @@
             this.lb2.Size = new System.Drawing.Size(26, 13);
             this.lb2.TabIndex = 1;
             this.lb2.Text = "Tên";
-           
             // 
             // lb3
             // 
@@ -79,7 +77,6 @@
             this.lb3.Size = new System.Drawing.Size(32, 13);
             this.lb3.TabIndex = 2;
             this.lb3.Text = "Email";
-            
             // 
             // lb4
             // 
@@ -132,7 +129,6 @@
             this.IDSinhVienTxt.Name = "IDSinhVienTxt";
             this.IDSinhVienTxt.Size = new System.Drawing.Size(191, 20);
             this.IDSinhVienTxt.TabIndex = 8;
-           
             // 
             // TenTxt
             // 
@@ -140,7 +136,6 @@
             this.TenTxt.Name = "TenTxt";
             this.TenTxt.Size = new System.Drawing.Size(191, 20);
             this.TenTxt.TabIndex = 9;
-            
             // 
             // EmailTxt
             // 
@@ -148,7 +143,6 @@
             this.EmailTxt.Name = "EmailTxt";
             this.EmailTxt.Size = new System.Drawing.Size(191, 20);
             this.EmailTxt.TabIndex = 10;
-
             // 
             // TuoiTxt
             // 
@@ -193,7 +187,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(481, 298);
             this.dataGridView1.TabIndex = 16;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-
             // 
             // Add
             // 
@@ -225,7 +218,7 @@
             this.Delete.UseVisualStyleBackColor = true;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
-            // Form1
+            // SinhVienForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -250,7 +243,7 @@
             this.Controls.Add(this.lb3);
             this.Controls.Add(this.lb2);
             this.Controls.Add(this.lb1);
-            this.Name = "Form1";
+            this.Name = "SinhVienForm";
             this.Text = "Quản lý sinh viên";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -10,6 +10,7 @@ namespace QLSinhVien
 {
     class SinhVienDAL
     {
+        
         DataConnection dc;
         SqlDataAdapter da;
         SqlCommand cmd;

@@ -18,23 +18,36 @@ namespace QLSinhVien
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
+        {   
+            DataConnection dataConnection=new DataConnection();
+            dataConnection.getIndex(2);
+            QLSV qLSV  =new QLSV();
+            qLSV.Show();
 
             
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            QLSV qLSV = new QLSV();
+            qLSV.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+          
+            QLSV qLSV = new QLSV();
+            qLSV.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+          
+            QLSV qLSV = new QLSV();
+            qLSV.Show();
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
         }
